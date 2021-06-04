@@ -14,7 +14,6 @@ public class TeachingFormConverter implements AttributeConverter<TeachingForm, S
 		if (attribute != null) {
 			return attribute.getValue();
 		}
-
 		return null;
 	}
 

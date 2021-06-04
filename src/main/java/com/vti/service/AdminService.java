@@ -21,8 +21,7 @@ public class AdminService implements IAdminService {
 
 	@Override
 	public boolean isGroupExistsByName(String name) {
-
-		return false;
+		return AdminRepository.existsByUsername(name);
 	}
 
 	@Override

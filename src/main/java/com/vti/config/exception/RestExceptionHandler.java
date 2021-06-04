@@ -67,6 +67,7 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
 		return new ResponseEntity<>(error, error.getStatus());
 	}
 
+
 	/**
 	 * 
 	 * this method to handle HttpMessageNotReadableException

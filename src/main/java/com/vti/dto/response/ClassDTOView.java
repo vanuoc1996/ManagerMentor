@@ -5,15 +5,9 @@
  * @ClassDTOCreateAndView
  */
 package com.vti.dto.response;
-
-import java.util.Date;
-
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-
 import org.hibernate.validator.constraints.Length;
-import org.springframework.stereotype.Component;
-
 import com.vti.Enum.ClassStatus;
 import com.vti.Enum.TeachingForm;
 import com.vti.validation.annotation.ClassNameNotExists;
